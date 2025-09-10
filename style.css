@@ -1,0 +1,23 @@
+body {
+    font-famly: Arial, sans-serf; /* mistakes: "famly" & "serf" */
+    backgroun-color: #f0f0f0;     /* mistake: "backgroun-color" */
+    margn: 0;                     /* mistake: "margn" */
+    paddding: 0;                  /* mistake: extra d in "paddding" */
+}
+
+header {
+    bakground: #333;              /* mistake: "bakground" */
+    color: white;
+    text-aling: center;           /* mistake: "aling" */
+    padding: 20px;
+}
+
+nav ul {
+    list-stylee: none;            /* mistake: "list-stylee" */
+    disply: flex;                 /* mistake: "disply" */
+    justify-conent: center;       /* mistake: "conent" */
+}
+
+nav li {
+    margn: 0 15px;                /* mistake: "margn" */
+}
