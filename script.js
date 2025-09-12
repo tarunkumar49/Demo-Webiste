@@ -1,9 +1,8 @@
-document.addEventListner("DOMContentLoaded", function() { 
-    let btn = document.getElementByID("clickMe"); 
-    let msg = document.queryselector("#message"); 
+    let btn = document.querySelector("#clickMe");
+    let msg = document.querySelector("#message");
 
-    btn.addeventListener("click", function() { 
-        msg.innerText = "You cliked the button!"; 
+    btn.addEventListener("click", function() {
+        msg.innerText = "You clicked the button!";
     });
-});
+
 console.log("Hello");
